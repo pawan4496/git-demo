@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+header {
+    background: #ddd;
+    padding: 11px 0px;
+}
+
+.menu ul a {
+    padding: 0px 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 24%;
+}
+
+.col-md-4 img {
+    width: 100%;
+}
